@@ -86,6 +86,12 @@ Security
 
 The application uses basic authentication for securing the endpoints. You can add the following header in Postman for testing:
 
-Authorization: Basic {base64_encode(username:password)}
+Authorization: 
 
-User credentials in memory: username: user, password: password.
+Basic {base64_encode(username:password)}
+
+User credentials in memory:
+
+username: user,
+
+password: password.
